@@ -173,7 +173,8 @@ const Contact = () => {
               </div>
               <div className="ml-4">
                 <h4 className="text-sm font-medium text-gray-300">Location</h4>
-                <p className="text-sm text-gray-400">Accra, Ghana</p>
+                <p className="text-sm text-gray-400">Tamale, Ghana</p>
+                <p className="text-sm text-gray-400">Kumasi, Ghana</p>
               </div>
             </div>
             <div className="flex items-start">
@@ -183,8 +184,8 @@ const Contact = () => {
               <div className="ml-4">
                 <h4 className="text-sm font-medium text-gray-300">Email</h4>
                 <p className="text-sm text-gray-400">
-                  <a href="mailto:kwame.asante@example.com">
-                    kwame.asante@example.com
+                  <a href="mailto:emk.appiah@gmail.com">
+                    emk.appiah@gmail.com
                   </a>
                 </p>
               </div>
@@ -195,7 +196,8 @@ const Contact = () => {
               </div>
               <div className="ml-4">
                 <h4 className="text-sm font-medium text-gray-300">Phone</h4>
-                <p className="text-sm text-gray-400">+233 24 123 4567</p>
+                <p className="text-sm text-gray-400">+233 54 098 5984</p>
+                <p className="text-sm text-gray-400">+233 24 963 3336</p>
               </div>
             </div>
             <div className="flex items-start">
@@ -216,25 +218,25 @@ const Contact = () => {
             </h4>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://github.com/eldray"
                 className="h-10 w-10 rounded-full bg-darker border border-gray-700 flex items-center justify-center text-gray-300 hover:text-primary hover:border-primary transition"
               >
                 <Github />
               </a>
               <a
-                href="#"
+                href="linkedin.com/in/emk-appiah"
                 className="h-10 w-10 rounded-full bg-darker border border-gray-700 flex items-center justify-center text-gray-300 hover:text-blue-400 hover:border-blue-400 transition"
               >
                 <Linkedin />
               </a>
               <a
-                href="#"
+                href="https://x.com/eL_Dray_GC"
                 className="h-10 w-10 rounded-full bg-darker border border-gray-700 flex items-center justify-center text-gray-300 hover:text-blue-500 hover:border-blue-500 transition"
               >
                 <Twitter />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/el_dray.gc/"
                 className="h-10 w-10 rounded-full bg-darker border border-gray-700 flex items-center justify-center text-gray-300 hover:text-pink-500 hover:border-pink-500 transition"
               >
                 <Instagram />

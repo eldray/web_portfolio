@@ -1,13 +1,11 @@
-import React from "react";
-
-const About = () => {
+export default function About() {
   return (
     <section
       id="about"
       className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto bg-dark rounded-xl mt-12"
     >
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold gradient-text inline-block">
+        <h2 className="text-3xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent inline-block">
           About Me
         </h2>
         <div className="w-20 h-1 bg-gradient-to-r from-primary to-secondary mx-auto mt-2 rounded-full"></div>
@@ -23,16 +21,22 @@ const About = () => {
         <div className="md:w-2/3 md:pl-12">
           <h3 className="text-2xl font-semibold mb-4">Who am I?</h3>
           <p className="text-gray-400 mb-6">
-            I'm Kwame Asante, a passionate Full-Stack Developer based in Accra,
-            Ghana with over 3 years of professional experience in building web
-            applications. I specialize in creating efficient, scalable, and
-            user-friendly digital solutions that solve real-world problems.
+            I'm Emmanuel Appiah, a full-stack developer and healthcare
+            professional based in Tamale, Ghana. With a B.A. in Industrial Arts
+            from KNUST, I transitioned into technology through self-taught
+            skills in React, Python, Node.js, and web development, driven by a
+            passion for creating impactful digital solutions.{" "}
           </p>
           <p className="text-gray-400 mb-6">
-            My journey in tech started at the University of Ghana where I
-            studied Computer Science. Since then, I've worked with startups and
-            established companies across Africa, helping them transform their
-            ideas into functional products.
+            As a programmer, I'm mostly freelancing. I've worked with over 3
+            years of professional experience in building web applications. I
+            specialize in creating efficient, scalable, and user-friendly
+            digital solutions that solve real-world problems.
+          </p>
+          <p className="text-gray-400 mb-6">
+            My projects, from e-commerce platforms to telemedicine apps, reflect
+            my commitment to blending technology and healthcare to solve
+            real-world challenges.
           </p>
           <p className="text-gray-400 mb-6">
             When I'm not coding, you can find me mentoring young developers in
@@ -57,6 +61,4 @@ const About = () => {
       </div>
     </section>
   );
-};
-
-export default About;
+}

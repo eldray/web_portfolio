@@ -49,33 +49,12 @@ const Footer = () => {
           {/* Brand and Description */}
           <div>
             <span className="text-xl font-bold gradient-text">
-              Kwame Asante
+              Emmanuel Appiah
             </span>
             <p className="text-gray-400 dark:text-gray-600 text-sm mt-2">
               Full-Stack Developer based in Ghana, crafting innovative solutions
               for the web.
             </p>
-          </div>
-
-          {/* Quick Links */}
-          <div>
-            <h3 className="text-lg font-semibold text-gray-200 dark:text-gray-800 mb-4">
-              Quick Links
-            </h3>
-            <ul className="space-y-2">
-              {["Home", "About", "Skills", "Projects", "Contact"].map(
-                (item) => (
-                  <li key={item}>
-                    <a
-                      href={`#${item.toLowerCase()}`}
-                      className="text-gray-400 dark:text-gray-600 hover:text-primary dark:hover:text-blue-600 transition transform hover:scale-105 inline-block"
-                    >
-                      {item}
-                    </a>
-                  </li>
-                )
-              )}
-            </ul>
           </div>
 
           {/* Newsletter Signup */}
@@ -122,31 +101,52 @@ const Footer = () => {
           </div>
         </div>
 
+          {/* Quick Links */}
+          <div>
+            <h3 className="text-lg font-semibold text-gray-200 dark:text-gray-800 mb-4">
+              Quick Links
+            </h3>
+            <ul className="space-y-2">
+              {["Home", "About", "Skills", "Projects", "Contact"].map(
+                (item) => (
+                  <li key={item}>
+                    <a
+                      href={`#${item.toLowerCase()}`}
+                      className="text-gray-400 dark:text-gray-600 hover:text-primary dark:hover:text-blue-600 transition transform hover:scale-105 inline-block"
+                    >
+                      {item}
+                    </a>
+                  </li>
+                )
+              )}
+            </ul>
+          </div>
+
         {/* Social Links */}
         <div className="mt-8 pt-8 border-t border-gray-800 dark:border-gray-400 flex flex-col md:flex-row justify-between items-center">
           <div className="flex space-x-6 mb-4 md:mb-0">
             {[
               {
                 icon: Github,
-                href: "#",
+                href: "https://github.com/eldray",
                 color: "hover:text-primary dark:hover:text-blue-600",
                 label: "GitHub",
               },
               {
                 icon: Linkedin,
-                href: "#",
+                href: "linkedin.com/in/emk-appiah",
                 color: "hover:text-blue-400 dark:hover:text-blue-500",
                 label: "LinkedIn",
               },
               {
                 icon: Twitter,
-                href: "#",
+                href: "https://x.com/eL_Dray_GC",
                 color: "hover:text-blue-500 dark:hover:text-blue-400",
                 label: "Twitter",
               },
               {
                 icon: Instagram,
-                href: "#",
+                href: "https://www.instagram.com/el_dray.gc/",
                 color: "hover:text-pink-500 dark:hover:text-pink-600",
                 label: "Instagram",
               },
@@ -162,12 +162,13 @@ const Footer = () => {
             ))}
           </div>
           <div className="text-center text-gray-400 dark:text-gray-600 text-sm">
-            <p>© {currentYear} Kwame Asante. All rights reserved.</p>
+            <p>© {currentYear} Emmanuel Appiah. All rights reserved.</p>
             <p className="mt-2">
               Built with <Heart className="inline text-red-500 h-4 w-4" /> in
               Ghana
             </p>
           </div>
+
         </div>
       </div>
     </footer>

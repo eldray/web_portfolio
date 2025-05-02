@@ -82,7 +82,7 @@ This is a modern and responsive portfolio website for **Kwame Asante**, a Full-S
 
 - Run the development server:
   ```bash
-  npm run dev
+  npm start
   ```
 
 ### Production Build
@@ -157,13 +157,13 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 If you have any questions or want to get in touch, feel free to reach out:
 
-- **Email**: kwame@example.com
-- **Phone**: +233 24 123 4567
-- **Location**: Accra, Ghana
+- **Email**: emk.appiah@gmail.com
+- **Phone**: +233 54 098 5984
+- **Location**: Tamale, Ghana
 - **Socials**:
-  - GitHub: [github.com/your-username](https://github.com/your-username)
-  - LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/your-profile)
-  - Twitter: [twitter.com/your-handle](https://twitter.com/your-handle)
+  - GitHub: [github.com/your-username](https://github.com/eldray)
+  - LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/emk-appiah)
+  - Twitter: [twitter.com/your-handle](https://x.com/eL_Dray_GC)
 
 ---
 
