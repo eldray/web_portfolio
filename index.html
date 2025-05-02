@@ -1,10 +1,93 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>Kwame Asante | Full-Stack Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#3B82F6",
+              secondary: "#10B981",
+              accent: "#F59E0B",
+              dark: "#111827",
+              darker: "#0F172A",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+      body {
+        font-family: "Poppins", sans-serif;
+        scroll-behavior: smooth;
+      }
+
+      .gradient-text {
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(90deg, #3b82f6, #10b981);
+      }
+
+      .tech-icon {
+        transition: all 0.3s ease;
+      }
+
+      .tech-icon:hover {
+        transform: translateY(-5px);
+      }
+
+      .project-card {
+        transition: all 0.3s ease;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .project-card:hover {
+        transform: translateY(-5px);
+        border-color: rgba(59, 130, 246, 0.5);
+        box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.1);
+      }
+
+      .wave {
+        animation: wave 2.5s infinite;
+        transform-origin: 70% 70%;
+        display: inline-block;
+      }
+
+      @keyframes wave {
+        0% {
+          transform: rotate(0deg);
+        }
+        10% {
+          transform: rotate(14deg);
+        }
+        20% {
+          transform: rotate(-8deg);
+        }
+        30% {
+          transform: rotate(14deg);
+        }
+        40% {
+          transform: rotate(-4deg);
+        }
+        50% {
+          transform: rotate(10deg);
+        }
+        60% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(0deg);
+        }
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
