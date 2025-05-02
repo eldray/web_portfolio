@@ -43,12 +43,13 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-dark dark:bg-gray-200 border-t border-gradient-to-r from-primary to-secondary py-8 mt-16">
+    <footer className="bg-dark dark:bg-gray-200 border-t border-gradient-to-r from-primary to-secondary py-8 mt-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand and Description */}
           <div>
-            <span className="text-xl font-bold gradient-text">
+            <span className="text-xl font-bold gradient-text">eL_Dray</span>
+            <span className="text-xl font-bold text-gray-400">
               Emmanuel Appiah
             </span>
             <p className="text-gray-400 dark:text-gray-600 text-sm mt-2">
@@ -99,7 +100,6 @@ const Footer = () => {
               )}
             </form>
           </div>
-        </div>
 
           {/* Quick Links */}
           <div>
@@ -122,53 +122,53 @@ const Footer = () => {
             </ul>
           </div>
 
-        {/* Social Links */}
-        <div className="mt-8 pt-8 border-t border-gray-800 dark:border-gray-400 flex flex-col md:flex-row justify-between items-center">
-          <div className="flex space-x-6 mb-4 md:mb-0">
-            {[
-              {
-                icon: Github,
-                href: "https://github.com/eldray",
-                color: "hover:text-primary dark:hover:text-blue-600",
-                label: "GitHub",
-              },
-              {
-                icon: Linkedin,
-                href: "linkedin.com/in/emk-appiah",
-                color: "hover:text-blue-400 dark:hover:text-blue-500",
-                label: "LinkedIn",
-              },
-              {
-                icon: Twitter,
-                href: "https://x.com/eL_Dray_GC",
-                color: "hover:text-blue-500 dark:hover:text-blue-400",
-                label: "Twitter",
-              },
-              {
-                icon: Instagram,
-                href: "https://www.instagram.com/el_dray.gc/",
-                color: "hover:text-pink-500 dark:hover:text-pink-600",
-                label: "Instagram",
-              },
-            ].map(({ icon: Icon, href, color, label }) => (
-              <a
-                key={label}
-                href={href}
-                className={`text-gray-400 ${color} transition transform hover:scale-110`}
-                aria-label={`Visit my ${label} profile`}
-              >
-                <Icon className="h-6 w-6" />
-              </a>
-            ))}
+          {/* Social Links */}
+          <div className="mt-8 pt-8 border-t border-gray-800 dark:border-gray-400 flex flex-col md:flex-row justify-between items-center">
+            <div className="flex space-x-6 mb-4 md:mb-0">
+              {[
+                {
+                  icon: Github,
+                  href: "https://github.com/eldray",
+                  color: "hover:text-primary dark:hover:text-blue-600",
+                  label: "GitHub",
+                },
+                {
+                  icon: Linkedin,
+                  href: "linkedin.com/in/emk-appiah",
+                  color: "hover:text-blue-400 dark:hover:text-blue-500",
+                  label: "LinkedIn",
+                },
+                {
+                  icon: Twitter,
+                  href: "https://x.com/eL_Dray_GC",
+                  color: "hover:text-blue-500 dark:hover:text-blue-400",
+                  label: "Twitter",
+                },
+                {
+                  icon: Instagram,
+                  href: "https://www.instagram.com/el_dray.gc/",
+                  color: "hover:text-pink-500 dark:hover:text-pink-600",
+                  label: "Instagram",
+                },
+              ].map(({ icon: Icon, href, color, label }) => (
+                <a
+                  key={label}
+                  href={href}
+                  className={`text-gray-400 ${color} transition transform hover:scale-110`}
+                  aria-label={`Visit my ${label} profile`}
+                >
+                  <Icon className="h-6 w-6" />
+                </a>
+              ))}
+            </div>
+            <div className="text-center text-gray-400 dark:text-gray-600 text-sm">
+              <p>© {currentYear} Emmanuel Appiah. All rights reserved.</p>
+              <p className="mt-2">
+                Built with <Heart className="inline text-red-500 h-4 w-4" /> in
+                Ghana
+              </p>
+            </div>
           </div>
-          <div className="text-center text-gray-400 dark:text-gray-600 text-sm">
-            <p>© {currentYear} Emmanuel Appiah. All rights reserved.</p>
-            <p className="mt-2">
-              Built with <Heart className="inline text-red-500 h-4 w-4" /> in
-              Ghana
-            </p>
-          </div>
-
         </div>
       </div>
     </footer>

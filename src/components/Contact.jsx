@@ -56,7 +56,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto mt-12"
+      className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto mt-4"
     >
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold gradient-text inline-block">
@@ -184,9 +184,7 @@ const Contact = () => {
               <div className="ml-4">
                 <h4 className="text-sm font-medium text-gray-300">Email</h4>
                 <p className="text-sm text-gray-400">
-                  <a href="mailto:emk.appiah@gmail.com">
-                    emk.appiah@gmail.com
-                  </a>
+                  <a href="mailto:emk.appiah@gmail.com">emk.appiah@gmail.com</a>
                 </p>
               </div>
             </div>

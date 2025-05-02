@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto bg-dark rounded-xl mt-12"
+      className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto bg-dark rounded-xl mt-4"
     >
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent inline-block">
